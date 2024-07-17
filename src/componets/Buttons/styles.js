@@ -11,8 +11,8 @@ export const ButtonContainer = styled.button`
     font-size: 14px;
 
     padding: 8px 12px;
-    min-width: 120px;
-    width: 50%;
+    min-width: 60%;
+    width: 70%;
     background: #FFF;
     border: none;
 

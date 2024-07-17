@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const Title = styled.h3`
     font-family: "Poppins", sans-serif;
     font-size: 34px;
@@ -44,19 +43,28 @@ export const Line = styled.div`
         width: ${({percentual}) => percentual}%;
         height: 8px;
         border-radius: 10px;
-        background-color: powderblue;
+        background-color: #fcac03;
 
 
     }
 
 `
 
-export const BoxImg = styled.img`
+export const Box = styled.div`
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     width: 4rem;
     height: 4rem;
     border-radius: 10%;
-    border: 1px solid black;
-    object-fit: contain;
+    border: 1px solid #fff;
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    
+
+   
 
 `

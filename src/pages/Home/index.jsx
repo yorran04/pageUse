@@ -1,13 +1,13 @@
 import React from "react";
 
 import {Header} from '../../componets/Header/index'
-import { Container , Texto, Title, Image} from './Styles';
+import { Container , Texto, Title, Image, Btg} from './Styles';
 import logo from '../../img/logo.jpg'
 import { Buttons } from "../../componets/Buttons";
 
 export function Home (){
     return(
-        <>
+        <Btg>
         <Header/>
         <Container>
             <div >
@@ -20,6 +20,6 @@ export function Home (){
             </div>
            
         </Container>
-        </>
+        </Btg>
     )
 }

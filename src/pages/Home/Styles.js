@@ -1,18 +1,25 @@
 import styled from 'styled-components';
 
+export const Btg = styled.body`
+
+background-color:#fcac03;
+width: 100%;
+height: auto;
+`
 
 export const Container = styled.main`
 
     width: 100%;
     max-width: 90%;
+    height: 100vh;
     margin: 0 auto;
-
-   margin-top: 200px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    
     
     @media (max-width: 600px){
         flex-direction: column-reverse;

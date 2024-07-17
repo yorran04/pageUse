@@ -2,12 +2,12 @@ import React from "react";
 
 import  login  from '../../img/login.jpg'
 import { Header } from "../../componets/Header";
-import { Container, Title, TextInput, TextP, Image } from './styles';
+import { Container, Title, TextInput, TextP, Image, Btg } from './styles';
 import { Buttons } from "../../componets/Buttons";
 
 export function Login (){
     return(
-        <>
+        <Btg>
         <Header/>
         <Container>
          <div style={{flex:1}}>
@@ -22,6 +22,6 @@ export function Login (){
          </div>
 
         </Container>
-        </>
+        </Btg>
     )
 }

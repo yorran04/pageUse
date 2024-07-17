@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+export const Btg = styled.body`
+
+background-color:#fcac03;
+
+`
 
 export const Container = styled.main`
 
@@ -14,6 +19,12 @@ export const Container = styled.main`
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    @media (max-width: 600px){
+        margin: 0 auto;
+        margin-top: 3rem;
+        flex-direction: column;        
+    }
     
     `
 
