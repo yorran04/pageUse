@@ -10,7 +10,7 @@ import logo from '../../img/logo.jpg'
 export function Freed({percentual, nome}) {
   return (
     <Btg>
-    <Header></Header>
+    <Header autenticado={true}></Header>
     <Container>
         <div style={{flex:2, display:'flex', flexDirection:'column', gap: 5}}>
           <Title>Artistas</Title>

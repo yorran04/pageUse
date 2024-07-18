@@ -3,27 +3,29 @@ import styled from 'styled-components';
 export const Btg = styled.body`
 
 background-color:#fcac03;
-width: 100%;
-height: auto;
+
 `
 
 export const Container = styled.main`
 
     width: 100%;
-    max-width: 90%;
-    height: 100vh;
+    max-width: 90%; 
+    height:100vh;
     margin: 0 auto;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
 
     
     
     @media (max-width: 600px){
+        height: auto;
         flex-direction: column-reverse;
-        gap: 2rem;
+        justify-content: start;
+        margin-top: 5rem;
         
     }
 
@@ -50,15 +52,15 @@ export const Texto = styled.p`
 
 export const Image = styled.img`
 
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     border-radius: 10px;
     
     
 
     
-    @media (max-width: 700px){
-        width: 90%;
+    @media (max-width: 600px){
+        width: 60%;
         
     }
 

@@ -9,22 +9,26 @@ background-color:#fcac03;
 export const Container = styled.main`
 
     width: 100%;
-    height: 100vh;
     max-width: 90%;
+    height: 100vh;
     margin: 0 auto;
-
-    padding-top: 10px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
 
+    
+    
     @media (max-width: 600px){
-        margin: 0 auto;
-        margin-top: 3rem;
-        flex-direction: column;        
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-end;
+        margin-top: 5rem;
+        
     }
+
     
     `
 
@@ -58,8 +62,8 @@ export const TextInput = styled.input`
 `
 export const Image = styled.img`
 
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
     
     

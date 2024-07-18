@@ -5,16 +5,17 @@ export const Container = styled.div`
     
     width: 100%;
     height: 60px;
-    padding: 0 5px;
+    padding: 0 1rem;
+    margin-right: 25px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 2rem;
 
 
 `
 export const Wrapper = styled.div`
-    background: #eee;
+    background: #FFF;
     width: 100%;
     height: 60px;
     display: flex;
@@ -25,7 +26,7 @@ export const Wrapper = styled.div`
 
 export const MenuInput = styled.input`
     background: #eee;
-    padding: 5px 10px;
+    padding: 0.2rem 0.5rem;
     border-radius: 5px;
 
 `
@@ -34,7 +35,21 @@ export const MenuInput = styled.input`
 export const MenuRight = styled.div`
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
 
 ` 
+export const MenuImg = styled.img`
+    width: 15%;
+    height: 90%;
+    opacity: 90%;
+
+` 
+
+export const UserPicture = styled.img`
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+
+`
